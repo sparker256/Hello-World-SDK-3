@@ -50,7 +50,6 @@ Create X-Plane Hello World SDK 3 using Cmake
 
    ```
    cmake --build ./build
-   mkdir ./HelloWorldSdk3/64
    cp ./build/lin.xpl ./HelloWorldSdk3/64/
    ```
 
@@ -70,6 +69,5 @@ Create X-Plane Hello World SDK 3 using Cmake
 
    ```
    cmake --build ./build
-   mkdir ./HelloWorldSdk3/64
    cp ./build/mac.xpl ./HelloWorldSdk3/64/
    ```
