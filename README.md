@@ -1,6 +1,6 @@
 # Hello-World-SDK-3
 
-[![CMake](https://github.com/sparker256/Hello-World-SDK-3/actions/workflows/cmake.yml/badge.svg)](https://github.com/sparker256/xbtn2cmd/actions/workflows/cmake.yml)
+[![CMake](https://github.com/sparker256/Hello-World-SDK-3/actions/workflows/cmake.yml/badge.svg)](https://github.com/sparker256/Hello-World-SDK-3/actions/workflows/cmake.yml)
 
 Using X-Plane Hello World (SDK3) Sample code from
 
