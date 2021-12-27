@@ -67,7 +67,7 @@ list(APPEND HELLOWORLDSDK3_SRCS Hello-World-SDK-3.cpp)
 if (WIN32)
 
 elseif (APPLE)
-    list(APPEND HELLOWORLDSDK3_SRCS clipboard_mac.mm)
+#    list(APPEND HELLOWORLDSDK3_SRCS clipboard_mac.mm)
 elseif (UNIX)
 
 endif ()
