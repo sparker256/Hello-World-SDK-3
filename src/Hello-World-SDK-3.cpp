@@ -7,11 +7,13 @@
 	#include <windows.h>
 #endif
 #if LIN
-	#include <GL/gl.h>
-#elif __GNUC__
-	#include <OpenGL/gl.h>
-#else
-	#include <GL/gl.h>
+#include <GL/gl.h>
+#endif
+#if __GNUC__ && APL
+#include <OpenGL/gl.h>
+#endif
+#if __GNUC__ && IBM
+#include <GL/gl.h>
 #endif
 
 #ifndef XPLM300
