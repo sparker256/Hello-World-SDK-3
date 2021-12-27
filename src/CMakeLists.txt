@@ -64,14 +64,6 @@ add_compile_options(-O3 -fPIC)
 # FIXME: Split this into individual targets.
 list(APPEND HELLOWORLDSDK3_SRCS Hello-World-SDK-3.cpp)
 
-if (WIN32)
-
-elseif (APPLE)
-#    list(APPEND HELLOWORLDSDK3_SRCS clipboard_mac.mm)
-elseif (UNIX)
-
-endif ()
-
 add_library(helloworldsdk3 SHARED ${HELLOWORLDSDK3_SRCS})
 
 target_compile_features(helloworldsdk3 PUBLIC cxx_std_11)
@@ -147,12 +139,3 @@ elseif (UNIX)
     set_target_properties(helloworldsdk3 PROPERTIES OUTPUT_NAME "lin")
 endif ()
 set_target_properties(helloworldsdk3 PROPERTIES SUFFIX ".xpl")
-
-
-# set_target_properties(xbtn2cmd PROPERTIES PREFIX "")
-# set_target_properties(xbtn2cmd PROPERTIES OUTPUT_NAME "Xbtn2cmd")
-# set_target_properties(xbtn2cmd PROPERTIES SUFFIX ".xpl")
-
-
-
-
