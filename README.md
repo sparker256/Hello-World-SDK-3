@@ -1,5 +1,12 @@
 # Hello-World-SDK-3
-Create X-Plane Hello World SDK 3 using Cmake
+
+[![CMake](https://github.com/sparker256/Hello-World-SDK-3/actions/workflows/cmake.yml/badge.svg)](https://github.com/sparker256/xbtn2cmd/actions/workflows/cmake.yml)
+
+Using X-Plane Hello World (SDK3) Sample code from
+
+https://developer.x-plane.com/code-sample/hello-world-sdk-3/
+
+Create a CMake project with GitHub Actions
 
 ## Building Hello-World-SDK-3 from source
 
